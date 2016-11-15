@@ -191,9 +191,9 @@ public class QQModule extends ReactContextBaseJavaModule implements IUiListener,
         return (this.isLogin?"QQAuthorizeResponse":"QQShareResponse");
     }
 
-    public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
-        Tencent.onActivityResultData(requestCode, resultCode, data, this);
-    }
+//     public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
+//         Tencent.onActivityResultData(requestCode, resultCode, data, this);
+//     }
 
     public void onNewIntent(Intent intent){
 
